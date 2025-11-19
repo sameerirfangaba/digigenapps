@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digi Gen Apps</title>
+    <!-- Bootstrap 5 CDN -->
+     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         *{
+            font-family: Poppins;
+        }
+        /* Navbar Styling */
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 12px 0;
+        }
+
+        /* Brand Text */
+        .navbar-brand {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #333 !important;
+            letter-spacing: 0.3px;
+        }
+
+        /* Navbar Links */
+        .navbar-nav .nav-link {
+            color: #444 !important;
+            font-weight: 500;
+            padding: 8px 14px;
+            transition: 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .navbar-nav .nav-link:hover {
+            color: #007bff !important;
+            transform: translateY(-1px);
+        }
+
+        /* Active Link */
+        .navbar-nav .nav-link.active {
+            color: #007bff !important;
+            font-weight: 600;
+        }
+
+        /* Mobile Toggle Icon */
+        .navbar-toggler {
+            border: none;
+        }
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        /* Banner Image */
+        .header-image {
+            width: 100%;
+            height: 520px;    
+            object-fit: cover;
+            border-radius: 0; 
+        }
+        .app-tile {
+        background: #fff;
+        border-radius: 16px;
+        padding: 18px;
+        transition: 0.3s ease;
+        }
+
+        .app-tile:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .tile-banner {
+            width: 100%;
+            height: 170px;
+            border-radius: 14px;
+            object-fit: cover;
+        }
+
+        .tile-info {
+            align-items: center;
+        }
+
+        .tile-icon {
+            width: 55px;
+            height: 55px;
+            border-radius: 12px;
+            object-fit: cover;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .section-title {
+                font-size: 28px;
+                font-weight: bold;
+                margin-bottom: 25px;
+                text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- ✅ HEADER START -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+
+            <!-- Left Text -->
+            <a class="navbar-brand" href="/">Digi Gen Apps </a>
+
+            <!-- Mobile Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Right Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/smart-transfer">Smart Switch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/translate-now">Translate Now</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- ✅ HEADER END -->
+    <img src="/image.jpg" alt="banner" class="header-image" >
+    <!-- ✅ OUR APPS SECTION -->
+    <div class="container my-5">
+    <div class="row g-4"> 
+    <h2 class="section-title">Our Apps</h2>
+        <!-- ✅ App 1 -->
+        <div class="col-md-6">
+             <a href="https://play.google.com/store/apps/details?id=com.smartswitch.easyMover.copymydata.phoneclone.android.filetransfer" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/IV1urxaDLcPXL2c7Z8IJ0LyAi3tmnAlLtA5Y8RVKkyJcZMQ-QjR3A_2fA-Q5xp6rGQ=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/jwn8YgnqtS7m-DQ38QuKH-W8gBGamKVS14URIZXXgtkUqjKrwsbeOAgb0eBrK9cYgzY=w240-h480-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Smart Transfer: Copy My Data</h5>
+                        <p class="text-muted small mb-0">DigiGen Apps</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+
+
+        <!-- ✅ App 2 -->
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=com.languagetranslator.translatorapp.smartscanner.dictionary.translation.voicetranslator" target="_blank" class="text-decoration-none">
+                <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/it73edWHE6dHvOZgxCXl82eyJFKQJDtee-SD3ZoXa_rLYOnRkMF_iRSmnULKaiQE5hI=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/ZyG0VK8SPkk4ItZ_Zhe1nP40kAdqXR3yTWzfHCTyt4E4E32m9WN7c-5pg4UZRhTx40Y1EmX9noW1wqfThUSd=w240-h480-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Translate Now: Translator App</h5>
+                        <p class="text-muted small mb-0">DigiGen Apps</p>
+                    </div>
+                </div>
+            </div></a>
+        </div>
+
+        <!-- ✅ App 3 -->
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=com.tvcast.video.smartscreen.casttotv.screenmirroring.tool.phonescreentotv.webvideo.webvideocastbrowsertotv" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/GKdiqFPz-rNs4m35TIrbaq_4sKPhw-mrLESMLpCAkvC_shbexVFTkgGQAVFcyvbpJGY1=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/sf5klGcodHUAyH0Ohhc68gSOPqYP8l8K0-3os9LIgi7TqAHXRek58HSjLlPotybsieuw=w240-h480-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Wireless Display - TV Cast</h5>
+                        <p class="text-muted small mb-0">DigiGen Apps</p>
+                    </div>
+                </div>
+            </div></a>
+        </div>
+
+        <!-- ✅ App 4
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=remotecontrolfortv.universaltvremotecontrol.remotecontrolforandroidtv" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/eFqaWBL55CIrohUNah1CC2HjCktS4HKnLhOiJIxVQh3sxdJnjbSLLOUPAZtpr2TrWvk=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/0LMbSIcxXBjfnj-j3e3hO49vWnKgV9MdyskosPDVdWCD7b5OdicJ10hfM6gclp3hQq-a=s64-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Remote Control: Universal TV</h5>
+                        <p class="text-muted small mb-0">Satellite World Maps</p>
+                    </div>
+                </div>
+            </div></a>
+        </div> -->
+
+        <!-- ✅ App 5
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=themes.wallpapers.widgets.animewallpapers.customthemes.fontskeyboard" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/BrU-x0RxtOIXHADRlTOVtx7c164pdgxAPX1MDeF2WoJkoSy5a-ILJLz65lMcqpB5zQ=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/Pva5bgrCyFtbyGFimQinez5IgHibWRyZu8feDj5UIzQgwo1XOqZzKG14mQs9UHxUhb8=s64-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Themes - Wallpapers & Widgets</h5>
+                        <p class="text-muted small mb-0">Satellite World Maps</p>
+                    </div>
+                </div>
+            </div></a>
+        </div> -->
+
+        <!-- ✅ App 6
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=compassaccurate.compass.digitalandaccuratecompass" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/KfwRBiKV1eDgRVn_Q6LUH4jpQt-WYCN1P_X591iBitPZO7uDgqmJ0QuQB2ffw6-e1Ug=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/4HTO4jW6S-Koc_iGU4F0i21PvXO1ddtON6ZnZQ_4AX4gLJsidQZkrSr4XqbXIzapXCE=s64-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Compass Accurate: Compass app</h5>
+                        <p class="text-muted small mb-0">Satellite World Maps</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div> -->
+
+        <!-- ✅ App 7
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=autoclicker.autotap.autotapper.automaticclicker" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/O5Ai13tkuKPTQnV_SQC01qIyRzS6AVYQjfDlgp1j_H0H2Oy7qmDuLZ8AwmlK6aGIKZI=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/R_KE4hM1OTxtQAo0DlW8F_1XpxOWj7GYZRN6uj8Kh7RnKOda-ne64ZtcFnqHVdGmJ1o=s64-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Auto Clicker: Auto tapper</h5>
+                        <p class="text-muted small mb-0">Satellite World Maps</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div> -->
+
+        <!-- ✅ App 8
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=copymydata.phonetransfer.datacloneapp.transfercontent" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/QDVhTNMD7lVMqKcY4i4lzKVOLI-5uJ4xP5hHqc533VjOlt6Yapu9gnN4ieeu4fTOkg=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/wpcBDPIP3lpKrWb0mBKI-1SSZZD4bkJqitFSaN9qK9tRGK3_o3eiDEQgPu9xRn_du88=s64-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Smart Switch - Phone Clone</h5>
+                        <p class="text-muted small mb-0">Satellite World Maps</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div> -->
+
+        <!-- ✅ App 9
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=com.liveearth.webcams.live.earth.cam.maps.livecams.exploreworld.earthcams" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/czSYmbpo72at4cUOmgqa0kUTvpnaLnOVubS93F0LLQ6QUOP-JAaqWQzgGpNozzbFayI=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/8JEiCpub-obPdSLV0CqUBdVZB-AwJe-88hN8vsNPUJqyvrJgjVbE8t__V2e3rEjmkyI=s64-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Live Camera - Street View</h5>
+                        <p class="text-muted small mb-0">Satellite World Maps</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div> -->
+
+        <!-- ✅ App 10
+        <div class="col-md-6">
+            <a href="https://play.google.com/store/apps/details?id=speedometer.odometer.gpsspeedometer.speedtracker" target="_blank" class="text-decoration-none">
+            <div class="app-tile shadow-sm">
+                <img src="https://play-lh.googleusercontent.com/eeF7Y-Ki6CNqF5bA-eczlAarY5sJJbBIUriLyKUr2UTvJ6GmUSh1zkqhU7Rc9DKQeYQ=w416-h235-rw" class="tile-banner" alt="">
+                <div class="tile-info d-flex mt-3">
+                    <img src="https://play-lh.googleusercontent.com/vbkSpaFXWv4Q5d6v0Ccyqng5JsQ67SRtn-kTlH_2574mhDmNcE_T6hIlJVWMMrHBAeB0=s64-rw" class="tile-icon" alt="">
+                    <div class="ms-3">
+                        <h5 class="mb-0 fw-semibold">Speedometer: GPS Speedometer</h5>
+                        <p class="text-muted small mb-0">Satellite World Maps</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        </a>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
